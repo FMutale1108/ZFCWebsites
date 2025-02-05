@@ -18,17 +18,16 @@
     </nav>
   </header>
 
-  <div class="logo-container">
-    <img src="Images/Logo.jpeg" alt="ZFC Logo" class="logo">
-</div>
   <section class="hero">
     <div class="hero-content">
-
-      <h1>Welcome to ZED Forex Consortium</h1>
-      <p>Empowering traders worldwide with knowledge, tools, and guidance for financial success.</p>
-      <a href="register.html" class="btn">Get Started</a>
+        <div class="logo-container">
+            <img src="Images/Logo.jpeg" alt="ZFC Logo" class="logo">
+        </div>
+        <h1>Welcome to ZED Forex Consortium</h1>
+        <p>Your journey to financial success starts here! Gain expert insights, cutting-edge tools, and strategies to trade like a pro.</p>
+        <a href="https://clicks.pipaffiliates.com/c?c=564195&l=en&p=1" class="btn">Join XM Now</a>
     </div>
-  </section>
+</section>
 
   
   <section class="services">
@@ -76,19 +75,46 @@
     </div>
   </section>
 
+  <!-- Review Section - Always Visible -->
+<section id="reviewSection">
+  <h2>Leave a Review</h2>
+  <form id="reviewForm">
+      <label for="clientName">Your Name:</label>
+      <input type="text" id="clientName" required />
+
+      <label for="reviewText">Your Review:</label>
+      <textarea id="reviewText" required></textarea>
+
+      <label for="rating">Star Rating:</label>
+      <select id="rating" required>
+          <option value="5">⭐⭐⭐⭐⭐</option>
+          <option value="4">⭐⭐⭐⭐</option>
+          <option value="3">⭐⭐⭐</option>
+          <option value="2">⭐⭐</option>
+          <option value="1">⭐</option>
+      </select>
+
+      <button type="submit">Submit Review</button>
+  </form>
+</section>
+
+<!-- Reviews Display Section -->
+<section id="reviewsSection">
+  <h2>Client Reviews</h2>
+  <div id="reviewsList"></div>
+</section>
   
-  <section class="cta">
-    <h2>Ready to Start Your Forex Journey?</h2>
-    <a href="register.html" class="btn">Register Now</a>
-  </section>
-  <section class="cta">
-    <h2>Ready to Join XM?</h2>
-    <a href="https://clicks.pipaffiliates.com/c?c=564195&l=en&p=1" class="btn">Register Now</a>
-  </section>
+
+<section class="cta">
+  <h2>Ready To Join ZFC VVIP Signals</h2> 
+  <a href="register.html" class="btn">Join Now</a>
+</section>
   <section class="cta">
     <h2>For more Information, Visit our Facebook page</h2>
     <a href="https://www.facebook.com/RadicalZambianTycoonRevolution?mibextid=ZbWKwL" class="btn">Facebook</a>
   </section>
+
   
 </body>
+<script src="review.js"></script>
 </html>
